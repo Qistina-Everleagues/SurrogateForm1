@@ -1,0 +1,118 @@
+h1 {
+    color: #00a8f4;
+}
+
+/* form */
+.mat-form-field.mat-form-field {
+    font-size: 16px;
+    width: 500px;
+}
+
+.height {
+    width: 180px !important;
+    margin-left: 20px;
+}
+
+.add-margin-left {
+    margin-left: 20px;
+}
+
+.add-margin-column-form {
+    margin-left: 40px;
+}
+
+.add-margin-row-form {
+    margin-left: 20px;
+}
+
+.mat-radio-button {
+    margin-left: 20px;
+}
+
+.mat-checkbox {
+    margin-left: 20px;
+}
+
+.bottom_buttons{
+    text-align: center;
+    font-size: 16px;
+    width: 400px !important;
+    min-width: unset!important;
+}
+
+.button-row {
+    margin: auto;
+    width: 400px !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-flex:hover .mat-form-field-outline {
+    color: green !important;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: green !important;
+}
+:host ::ng-deep .track circle{       
+    stroke-opacity: 0.3 !important;
+}
+
+:host ::ng-deep .background circle{   
+    stroke: #0CC20C;
+}
+:host ::ng-deep .mat-progress-spinner circle{   
+    stroke: #0CC20C;
+}
+
+/* table */
+
+#table {
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#table td, #table th {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#table tr:nth-child(even){background-color: #f2f2f2;}
+  
+#table tr:hover {background-color: #ddd;}
+  
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Stepper */
+
+.mat-stepper-horizontal {
+    margin-top: 8px;
+}
+
+/* Progress Bar */
+
+.progress-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.progress {
+    width: 500px;
+    height: 20px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.card {
+    width: 550px;
+    margin-left: 480px;
+}
